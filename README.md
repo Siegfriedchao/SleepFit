@@ -74,7 +74,7 @@ def get_readings(tag):
 
 ## Credits
 - Bluepy
--- [Ian Harvey](github.com/IanHarvey)
+-- [Ian Harvey](https://github.com/IanHarvey)
 
 - Raspberry Weather Station
--- [YuXuan Tay](github.com/yxtay)
+-- [YuXuan Tay](https://github.com/yxtay)
