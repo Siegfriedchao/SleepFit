@@ -3,10 +3,10 @@ from __future__ import print_function
 import datetime
 import sys
 import time
-
+import keyboard
 from bluepy.btle import BTLEException
 from bluepy.sensortag import SensorTag
-
+import numpy
 # configurations to be set accordingly
 SENSORTAG_ADDRESS = "54:6C:0E:4D:AC:00"
 
@@ -79,7 +79,7 @@ def main():
     temp=[]
     humid=[]
     light=[]
-    data=[[]]
+    curTime=[]
     print('Connecting to {}'.format(SENSORTAG_ADDRESS))
     tag = SensorTag(SENSORTAG_ADDRESS)
     print('Press Ctrl-C to quit.')
@@ -126,10 +126,16 @@ def main():
             print("X : Sleep | ok : Work")
         print("------------------------------------------")
         
-#        temp.append(readings["ir_temp"])
-#        humid.append(readings["humidity"])
-#        light.append(readings["light"])
-        
-        
+        temp.append(readings["ir_temp"])
+        humid.append(readings["humidity"])
+        light.append(readings["light"])
+        numpy.savetxt("temp.csv",temp,delimiter=",")
+        numpy.savetxt("humid.csv",humid,delimiter=",")
+        numpy.savetxt("light.csv",light,delimiter=",")
+
+    
+# used try so that if user pressed other than the given key error will not be shown
+
+                
 if __name__ == "__main__":
     main()
