@@ -1,4 +1,9 @@
-# fitHome
+### Jason Y J Too
+### jyjt3@cam.ac.uk
+### Wolfson College
+### fitHome
+___
+
 Using Sensor Tag 2650 &amp; Raspberry Pi to provide real time monitoring of environment/room conditions.
 
 This repository contains the following
