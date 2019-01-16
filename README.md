@@ -37,6 +37,7 @@ As the SensorTag contains a myriad of other sensors too, it could be easily adap
 - Accelerometer
 - Magnetometer
 - Gyroscope
+
 They have been commented out but can be implemented similarly by uncommenting them within ;
 ```bash
 def enable_sensors(tag):
