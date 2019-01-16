@@ -26,7 +26,7 @@ sudo apt-get install libglib2.0-0 libglib2.0-dev
 sudo pip install bluepy
 ```
 
-4. Set bluetooth address on fitHome.py (to find your SensorTag's address for [this guide](https://developer.ibm.com/recipes/tutorials/ti-sensor-tag-and-raspberry-pi/) a similar guide can also be found in the requirement.md file within this repo.
+4. Set bluetooth address on SleepFit.py (to find your SensorTag's address for [this guide](https://developer.ibm.com/recipes/tutorials/ti-sensor-tag-and-raspberry-pi/) a similar guide can also be found in the requirement.md file within this repo.
 
 ```bash
 SENSORTAG_ADDRESS = "54:6C:0E:4D:AC:00" #insert your address instead, within the quote ("") marks
@@ -34,7 +34,7 @@ SENSORTAG_ADDRESS = "54:6C:0E:4D:AC:00" #insert your address instead, within the
 
 5. Save changes & execute (and switch on SensorTag)
 ```bash
-python fitHome.py
+python SleepFit.py
 ```
 ## Configuring
 As the SensorTag contains a myriad of other sensors too, it could be easily adapted for other purposes. Below is a list of other commands which could be used to access the 
