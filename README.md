@@ -2,7 +2,7 @@
 ### jyjt3@cam.ac.uk
 ### Wolfson College
 ___
-## fitHome
+## SleepFit
 
 Using Sensor Tag 2650 &amp; Raspberry Pi to provide real time monitoring of environment/room conditions.
 
