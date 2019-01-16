@@ -7,7 +7,7 @@ sudo apt-get install libglib2.0-0 libglib2.0-dev
 ```bash
 bluepy (https://github.com/IanHarvey/bluepy)
 ```
-# TO READ BLUETOOTH ADDRESS
+# To find Bluetooth Address
 1. Run,
 ```bash 
 wget http://www.kernel.org/pub/linux/bluetooth/bluez-5.32.tar.xz 
