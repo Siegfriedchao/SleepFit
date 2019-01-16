@@ -1,0 +1,54 @@
+pi@raspberrypi:~/fitHome $ sudo python fitHome.py 
+Connecting to 54:6C:0E:4D:AC:00
+Press Ctrl-C to quit.
+------------------------------------------
+Temperature:		17.06
+Temperature is ideal for sleep.
+
+Humidity:		41.11
+It's too dry.
+
+Light levels:		130.04
+X : Sleep | X : Work 
+------------------------------------------
+------------------------------------------
+Temperature:		14.22
+It's cold. Raise to at least 16 C.
+
+Humidity:		55.54
+It's too dry.
+
+Light levels:		69.84
+X : Sleep | X : Work 
+------------------------------------------
+
+------------------------------------------
+Temperature:		16.13
+Temperature is ideal for sleep.
+
+Humidity:		56.42
+It's too dry.
+
+Light levels:		27.18
+X : Sleep | X : Work 
+------------------------------------------
+------------------------------------------
+Temperature:		16.84
+Temperature is ideal for sleep.
+
+Humidity:		65.17
+Humidity levels are good.
+
+Light levels:		505.92
+X : Sleep | ok : Work
+------------------------------------------
+------------------------------------------
+Temperature:		16.53
+Temperature is ideal for sleep.
+
+Humidity:		65.81
+Humidity levels are good.
+
+Light levels:		0.48
+ok : Sleep | X : Work 
+------------------------------------------
