@@ -45,10 +45,27 @@ def enable_sensors(tag):
 
 def disable_sensors(tag):
   ...
-  
+```
+And implementing them within ```bash def get_readings(tag): ``` similarly as the other sensors, respecting the number values returned from the [bluepy library](https://github.com/IanHarvey/bluepy/blob/master/bluepy/sensortag.py), an example for the accelerometer is given below;
+In bluepy library,
+```bash
+...  
+class AccelerometerSensor(SensorBase):
+
+  def read(self):
+        '''Returns (x_accel, y_accel, z_accel) in units of g'''
+        x_y_z = struct.unpack('bbb', self.data.read())
+        return tuple([ (val/self.scale) for val in x_y_z ])
+...
+```
+therefore the code within fitHome.py would be as follows;
+```bash
 def get_readings(tag):
   ...
+  readings["accel_x"], readings["accel_y"],readings["accel_z"] = tag.accelerometer.read()
+  ...
 ```
+
 
 ## Credits
 - Bluepy
