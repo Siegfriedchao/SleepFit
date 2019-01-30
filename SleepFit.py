@@ -8,7 +8,7 @@ from bluepy.btle import BTLEException
 from bluepy.sensortag import SensorTag
 import numpy
 # configurations to be set accordingly
-SENSORTAG_ADDRESS = "54:6C:0E:4D:AC:00"
+SENSORTAG_ADDRESS = "CC:78:AB:77:22:07"
 
 def enable_sensors(tag):
     """Enable sensors so that readings can be made."""
